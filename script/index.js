@@ -3,15 +3,11 @@ console.log(item[2].id);
 item.forEach((a) => {
   a.addEventListener("mouseenter", () => {
     let i = a.id;
-    document
-      .querySelector(`.i${i}`)
-      .setAttribute("src", `../assest/${i}2.avif`);
+    document.querySelector(`.i${i}`).setAttribute("src", `./assest/${i}2.avif`);
   });
   a.addEventListener("mouseleave", () => {
     let i = a.id;
-    document
-      .querySelector(`.i${i}`)
-      .setAttribute("src", `../assest/${i}1.avif`);
+    document.querySelector(`.i${i}`).setAttribute("src", `./assest/${i}1.avif`);
   });
 });
 
