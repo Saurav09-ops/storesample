@@ -314,16 +314,19 @@ input {
 /* info */
 .info {
   margin-top: 25px;
-  position: relative;
+
   height: 460px;
 }
 
-.info:hover .tit {
-  opacity: 0;
+.latecont {
+  position: relative;
+  max-width: 1200px;
+  height: 100%;
+  margin: auto;
 }
-.info .container {
+
+.latecont .container {
   position: absolute;
-  left: 3%;
 
   height: 100%;
   width: 100%;
@@ -335,7 +338,7 @@ input {
 
 .tit {
   position: absolute;
-  left: 38%;
+  left: 37.5%;
   top: 40%;
   background-color: transparent;
   height: 100px;
@@ -346,6 +349,10 @@ input {
   border: 10px solid #fe7743;
   color: #fe7743;
   transition: 0.3s ease-in-out;
+}
+
+.info:hover .tit {
+  opacity: 0;
 }
 /* fro info tit */
 .test {
