@@ -162,6 +162,7 @@ input {
 
 .a3 {
   flex: 2;
+  min-width: 122px;
   align-items: center;
   justify-content: flex-end;
 }
@@ -223,7 +224,7 @@ input {
 /* Hero */
 
 .hero1 {
-  height: 490px;
+  height: fit-content;
   /* margin-top: 25px; */
   overflow: hidden;
 }

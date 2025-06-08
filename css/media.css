@@ -1,0 +1,8 @@
+@media (max-width: 640px) {
+  .navbar {
+    height: fit-content;
+  }
+  .b {
+    display: none;
+  }
+}
